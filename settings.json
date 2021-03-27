@@ -1,0 +1,13 @@
+{
+  "name": "MyAssistant",
+  "questions": [
+    "qual capital",
+    "diga capital",
+    "capital"
+  ],
+  "answers": {
+    "capital": {
+      "AC": "Rio Branco"
+    }
+  }
+}
