@@ -1,13 +1,47 @@
 {
-  "name": "MyAssistant",
-  "questions": [
-    "qual capital",
-    "diga capital",
-    "capital"
+  "name": "ted",
+  "allowedExpressions": [
+    "capital",
+    "maior cidade",
+    "menor cidade",
+    "afluentes rio"
   ],
-  "answers": {
+  "data": {
     "capital": {
-      "AC": "Rio Branco"
+      "acre": "A capital do Acre é Rio Branco",
+      "alagoas": "A capital do Alagoas é Maceió",
+      "amapá": "A capital do Amapá é Macapá",
+      "amazonas": "A capital do Amazonas é Manaus",
+      "bahia": "A capital da Bahia é Salvador",
+      "ceará": "A capital do Ceará é Fortaleza",
+      "espírito Santo": "A capital do Espírito Santo é Vitória",
+      "goiás": "A capital do Goiás é Goiânia",
+      "maranhão": "A capital do Maranhão é São Luís",
+      "mato grosso": "A capital do Mato Grosso é Cuiabá",
+      "mato grosso do Sul": "A capital do Mato Grosso do Sul é Campo Grande",
+      "minas gerais": "A capital de Minas Gerais é Belo Horizonte",
+      "pará": "A capital do Pará é Belém",
+      "paraíba": "A capital da Paraíba é João Pessoa",
+      "paraná": "A capital do Paraná é Curitiba",
+      "pernambuco": "A capital de Pernambuco é Recife",
+      "piauí": "A capital do Piauí é Teresina",
+      "rio de janeiro": "A capital do Rio de Janeiro é Rio de Janeiro",
+      "rio grande do norte": "A capital do Rio Grande do Norte é Natal",
+      "rio grande do sul": "A capital do Rio Grande do Sul é Porto Alegre",
+      "rondônia": "A capital de Rondônia é Porto Velho",
+      "roraima": "A capital de Roraima é Boa Vista",
+      "santa catarina": "A capital de Santa Catarina é Florianópolis",
+      "são paulo": "A capital do São Paulo é São Paulo",
+      "sergipe": "A capital de Sergipe é Aracaju",
+      "tocantins": "A capital de Tocantins é Palmas"
+    },
+    "cidade": {
+      "maior": "A maior cidade do Brasil é São Paulo",
+      "menor": "A menor cidade do Brasil é Serra da Saudade"
+    },
+    "afluente": {
+      "amazonas": "Durante todo o seu percurso, o Rio Amazonas possui uma grande quantidade de afluentes, entre os mais importantes estão o Huallaga, Ucayali, Pastaza, Napo (Peru); Javari, Juruá, Purus, Madeira, Tapajós, Xingu, Içá, Japurá, Negro, Trombetas, Paru e Jari (Brasil).",
+      "são francisco": "Os principais afluentes da Bacia do Rio São Francisco situam-se na margem esquerda, tanto do Alto quanto do Médio São Francisco, devido à formação sedimentar, que possibilita que a água da chuva infiltre-se com maior facilidade, alimentando esses rios. Os principais afluentes são: Rio Paraopeba, Rio Abaeté, Rio Jequitaí, Rio Paracatu, Rio Verde Grande, Rio Carinhanha, Rio Corrente, Rio Pará, Rio das Velhas, Rio Pajeú, Rio Salitre, Rio Urucuia"
     }
   }
 }
