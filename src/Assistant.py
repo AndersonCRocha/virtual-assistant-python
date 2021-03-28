@@ -31,11 +31,11 @@ class Assistant:
             
             firstKey, secondKey = self.__extractValue(tokens, validTokensCount)
             
-            print({self.data[firstKey][secondKey]}, '\n')
+            print(self.data[firstKey][secondKey], '\n')
         except KeyboardInterrupt as error:
             raise error
         except Exception as error:
-            print("Ocorreu um erro inesperado: {0}".format(error))
+            print("Ocorreu um erro inesperado: {0}\n".format(error))
 
     def __listen(self):
         question = None
