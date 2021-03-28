@@ -31,7 +31,7 @@ class Assistant:
             
             firstKey, secondKey = self.__extractValue(tokens, validTokensCount)
             
-            print(self.data[firstKey][secondKey])
+            print({self.data[firstKey][secondKey]}, '\n')
         except KeyboardInterrupt as error:
             raise error
         except Exception as error:
